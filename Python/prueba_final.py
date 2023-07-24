@@ -5,7 +5,7 @@ def prueba_final():
             n = int(input("Introduce el tamaño de matriz que deseas: "))#Tamaño matriz
             if type(n) is int:
                 if n<=0:
-                    print("Introduce un número entero positivo")
+                    print("El valor no es correcto, por favor introduce un número entero positivo")
                     continue
                 else:
                     break
